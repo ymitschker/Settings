@@ -1,0 +1,19 @@
+# Define colour palette
+EUI_palette = [
+    RGB(0/255, 70/255, 118/255),      # darkblue
+    RGB(200/255, 88/255, 38/255),     # brown
+    RGB(143/255, 148/255, 47/255),    # green
+    RGB(241/255, 196/255, 111/255),   # sand
+    RGB(196/255, 174/255, 161/255),   # grey
+    RGB(37/255, 129/255, 196/255),    # lightblue
+    # added 
+    RGB(175/255, 96/255, 26/255),     # burnt sienna / brick orange
+    RGB(222/255, 188/255, 104/255),   # golden ochre
+    RGB(167/255, 187/255, 143/255),   # muted sage green
+    RGB(107/255, 122/255, 140/255),   # sea slate blue
+    RGB(183/255, 119/255, 128/255),   # antique rose
+    RGB(120/255, 60/255, 50/255)      # aged red clay
+]
+
+# Set defaults for resolution, colours, font
+default(dpi=300, palette = EUI_palette, fontfamily = "DejaVu Sans")
